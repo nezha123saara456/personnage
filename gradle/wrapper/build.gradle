@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JUnit 5 for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+
+    // Optional: AssertJ for fluent assertions
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+}
+
+test {
+    useJUnitPlatform()
+}
