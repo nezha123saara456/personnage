@@ -1,6 +1,6 @@
 package jeu;
 
-public class Personnage {
+class Personnage {
 
     public enum Orientation {
         NORD, EST, SUD, OUEST
